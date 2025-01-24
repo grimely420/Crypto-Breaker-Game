@@ -51,18 +51,14 @@ In **Crypto Breaker**, you control a spaceship that flies around the screen. You
 
 **Platforms**: PC, Mac, iOS, Android
 
-**Minimum Requirements**:
-- 2 GB RAM
-- OpenGL 3.0 / DirectX 11 support
-- Internet connection (for leaderboards and challenges)
 
 ---
 
 ## Installation
 
-1. **Download** the game from the official website or app store.
-2. **Install** the game on your device.
-3. **Launch** the game and create your profile.
+1. **Visit** the game from the official website or app store.
+2. **Launch** the game on your device.
+
 
 ---
 
