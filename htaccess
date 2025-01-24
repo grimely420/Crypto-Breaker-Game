@@ -1,0 +1,33 @@
+# File Name: .htaccess 
+#
+# Written by: Mark Geden
+# 
+# Updated 1/10/2025
+#
+# Enable rewrite engine
+#RewriteEngine On
+
+# Allow game.php to be accessed internally and via index.php
+#<Files "game.php">
+   # RewriteCond %{HTTP_REFERER} !^https?://(www\.)?yourdomain\.com/index\.php [NC]
+  #  RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+ #   RewriteRule ^ - [F]
+#</Files>
+
+# Allow script.js to be accessed internally and via index.php
+#<Files "script.js">
+ #   RewriteCond %{HTTP_REFERER} !^https?://(www\.)?yourdomain\.com/index\.php [NC]
+  #  RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+   # RewriteRule ^ - [F]
+#</Files>
+
+# Allow loginform.php to be accessed internally and via index.php
+#<Files "loginform.php">
+#    RewriteCond %{HTTP_REFERER} !^https?://(www\.)?yourdomain\.com/index\.php [NC]
+#    RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+#    RewriteRule ^ - [F]
+#</Files>
+
+# Disable directory browsing for security
+#Options -Indexes
+
