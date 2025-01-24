@@ -1,0 +1,14 @@
+[05-Jan-2025 21:31:28 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[05-Jan-2025 21:31:28 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70
+[05-Jan-2025 21:47:59 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[05-Jan-2025 21:47:59 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70
+[06-Jan-2025 01:35:59 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[06-Jan-2025 01:35:59 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70
+[06-Jan-2025 02:12:16 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[06-Jan-2025 02:12:16 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70
+[06-Jan-2025 02:18:03 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[06-Jan-2025 02:18:03 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70
+[06-Jan-2025 20:34:35 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[06-Jan-2025 20:34:35 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70
+[06-Jan-2025 20:35:56 UTC] PHP Warning:  Undefined variable $levelsReached in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 69
+[06-Jan-2025 20:35:56 UTC] PHP Warning:  Undefined variable $gameOvers in /home/markxwyo/public_html/lordsoflegend.xyz/mygame/updateScore.php on line 70

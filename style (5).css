@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('assets/space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 2vw;
+    background: linear-gradient(to right, limegreen, darkgreen);
+    color: white; /* Ensure text remains readable */
+}
+ul {
+    display: none;
+}
+
+.game-container {
+    border:5px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: calc(100vh - 150px); /* Adjust for header and footer */
+}
+
+
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds a 10px gap between the buttons */
+    margin: 10px auto;
+}
+
+#startButton, #logoutButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: rgba(38, 230, 144, 0.9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+#startButton:hover, #logoutButton:hover {
+    background: rgba(38, 230, 144, 0.5);
+}
+
+
+
+
+#gameCanvas {
+    border:5px solid green;
+    display: block; /* Make sure the canvas is visible */
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    background-color: black; /* Optional for better clarity */
+}
+
+#joystick, #firebutton {
+    display: none;
+    position: absolute;
+}
+
+#joystick {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 50%;
+    bottom: 20px;
+    left: 20px;
+}
+
+#firebutton {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap to the next line if it overflows */
+    gap: 20px; /* Space between each item */
+    justify-content: center; /* Center the content */
+    text-align: center;
+    margin: 10px;
+}
+
+.info-container span {
+    font-size: 1rem;
+    white-space: nowrap; /* Prevents breaking into a new line */
+}
+
+
+@media screen and (max-width: 768px) {
+    .canvas-wrapper {
+        width: 100%;
+        height: 50%;
+    }
+
+    #logoutButton {
+        font-size: 0.8rem;
+    }
+
+    #startButton {
+        font-size: 1rem;
+    }
+
+    #joystick {
+        width: 80px;
+        height: 80px;
+    }
+
+    #firebutton {
+        width: 40px;
+        height: 40px;
+    }
+}
